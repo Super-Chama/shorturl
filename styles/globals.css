@@ -22,7 +22,9 @@ form,
     rgba(74, 79, 97, 0.3) 0px 8px 16px -8px;
   padding: 20px 35px 35px 35px;
   text-align: center;
-  width: 500px;
+  width: 90vw;
+  max-width: 500px;
+  margin: 0 auto;
 }
 .--flex {
   display: flex;
@@ -112,5 +114,6 @@ a {
   color: inherit;
   font-size: larger;
   font-family: "Poppins", sans-serif;
+  word-break: break-word;
 }
 
