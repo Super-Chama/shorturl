@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +14,8 @@ body {
   justify-content: center;
 }
 
-form {
+form,
+.card {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: rgba(74, 79, 97, 0.25) 0px 13px 27px -5px,
@@ -99,3 +102,9 @@ form button[type="submit"] {
 form button[type="submit"] i {
   margin-left: 5px;
 }
+a {
+  color: inherit;
+  font-size: larger;
+  font-family: "Poppins", sans-serif;
+}
+
