@@ -24,6 +24,12 @@ form,
   text-align: center;
   width: 500px;
 }
+.--flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 330px;
+}
 form i {
   color: #fff;
   font-size: 30px;
